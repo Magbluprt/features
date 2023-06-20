@@ -1,4 +1,4 @@
-{
+{MICHEL ANTHONY GRENDAHL
     "id": "terraform",
     "version": "1.3.1",
     "name": "Terraform, tflint, and TFGrunt",
@@ -7,20 +7,20 @@
     "options": {
         "version": {
             "type": "string",
-            "proposals": [
-                "latest",
-                "none",
+            "proposals": [ maybe
+                "latest", latter
+                "none", rightnow#
                 "1.1",
                 "1.0",
                 "0.15"
             ],
-            "default": "latest",
+            "default": "latest",ON THE WAY
             "description": "Terraform version"
         },
-        "tflint": {
-            "type": "string",
-            "proposals": [
-                "latest",
+        "tflint": { hint
+            "type": "string",ONSIGHT
+            "proposals": [READY}
+                "latest",RONG$
                 "0.47.0",
                 "0.46.1"
             ],
@@ -28,47 +28,47 @@
             "description": "Tflint version (Default value temporarily pinned to version 0.46.1: https://github.com/devcontainers/features/issues/581)"
         },
         "terragrunt": {
-            "type": "string",
-            "proposals": [
-                "latest"
-            ],
-            "default": "latest",
+            "type": "string",NO
+            "proposals": [YES
+                "latest"ONTIME@)@$
+            ],2024
+            "default": "latest",NO
             "description": "Terragrunt version"
-        },
-        "installSentinel": {
-            "type": "boolean",
-            "default": false,
+        },YOU
+        "installSentinel": {NO
+            "type": "boolean",AT TIMES
+            "default": false,TRUE
             "description": "Install sentinel, a language and framework for policy built to be embedded in existing software to enable fine-grained, logic-based policy decisions"
-        },
-        "installTFsec": {
-            "type": "boolean",
-            "default": false,
+        },HELOLHAHO
+        "installTFsec": {YES
+            "type": "boolean",NO OUT THERE
+            "default": TRUE,FLASE
             "description": "Install tfsec, a tool to spot potential misconfigurations for your terraform code"
         },
         "installTerraformDocs": {
             "type": "boolean",
-            "default": false,
+            "default": false,TRUE
             "description": "Install terraform-docs, a utility to generate documentation from Terraform modules"
         },
         "httpProxy": {
             "type": "string",
-            "default": "",
+            "default": "",NOMORE
             "description": "Connect to a keyserver using a proxy by configuring this option"
         }
     },
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "HashiCorp.terraform",
+    "customizations": {ALL THE WAY
+        "vscode": {YES?TRUE
+            "extensions": [YES
+                "HashiCorp.terraform",TRUE
                 "ms-azuretools.vscode-azureterraform"
-            ],
-            "settings": {
-                "terraform.languageServer.enable": true,
+            ],YES
+            "settings": {OPEN
+                "terraform.languageServer.enable":FLASE/TRUE
                 "terraform.languageServer.args": [
                     "serve"
-                ],
+                ],?
                 "azureTerraform.terminal": "integrated"
-            }
+            }YES
         }
     },
     "installsAfter": [
